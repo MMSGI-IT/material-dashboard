@@ -23990,9 +23990,6 @@ body:not(.dark-version) .sidenav.bg-transparent .summary .collapse .nav-item .na
   vertical-align: middle;
 }
 
-.table tbody tr:last-child td {
-  border-width: 0;
-}
 
 .table> :not(:last-child)> :last-child>* {
   border-bottom-color: #f0f2f5;
