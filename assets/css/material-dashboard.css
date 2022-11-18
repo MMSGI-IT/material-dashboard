@@ -2373,7 +2373,7 @@ progress {
   }
 }
 
-.table {
+.tables {
   --bs-table-color: #7b809a;
   --bs-table-bg: transparent;
   --bs-table-border-color: #f0f2f5;
@@ -2391,22 +2391,22 @@ progress {
   border-color: var(--bs-table-border-color);
 }
 
-.table> :not(caption)>*>* {
+.tables> :not(caption)>*>* {
   padding: 0.5rem 0.5rem;
   background-color: var(--bs-table-bg);
   border-bottom-width: 1px;
   box-shadow: inset 0 0 0 9999px var(--bs-table-accent-bg);
 }
 
-.table>tbody {
+.tables>tbody {
   vertical-align: inherit;
 }
 
-.table>thead {
+.tables>thead {
   vertical-align: bottom;
 }
 
-.table-group-divider {
+.tables-group-divider {
   border-top: 2px solid currentColor;
 }
 
@@ -2414,47 +2414,47 @@ progress {
   caption-side: top;
 }
 
-.table-sm> :not(caption)>*>* {
+.tables-sm> :not(caption)>*>* {
   padding: 0.25rem 0.25rem;
 }
 
-.table-bordered> :not(caption)>* {
+.tables-bordered> :not(caption)>* {
   border-width: 1px 0;
 }
 
-.table-bordered> :not(caption)>*>* {
+.tables-bordered> :not(caption)>*>* {
   border-width: 0 1px;
 }
 
-.table-borderless> :not(caption)>*>* {
+.tables-borderless> :not(caption)>*>* {
   border-bottom-width: 0;
 }
 
-.table-borderless> :not(:first-child) {
+.tables-borderless> :not(:first-child) {
   border-top-width: 0;
 }
 
-.table-striped>tbody>tr:nth-of-type(odd)>* {
+.tables-striped>tbody>tr:nth-of-type(odd)>* {
   --bs-table-accent-bg: var(--bs-table-striped-bg);
   color: var(--bs-table-striped-color);
 }
 
-.table-striped-columns> :not(caption)>tr> :nth-child(even) {
+.tables-striped-columns> :not(caption)>tr> :nth-child(even) {
   --bs-table-accent-bg: var(--bs-table-striped-bg);
   color: var(--bs-table-striped-color);
 }
 
-.table-active {
+.tables-active {
   --bs-table-accent-bg: var(--bs-table-active-bg);
   color: var(--bs-table-active-color);
 }
 
-.table-hover>tbody>tr:hover>* {
+.tables-hover>tbody>tr:hover>* {
   --bs-table-accent-bg: var(--bs-table-hover-bg);
   color: var(--bs-table-hover-color);
 }
 
-.table-primary {
+.tables-primary {
   --bs-table-color: #000;
   --bs-table-bg: #fbd2e0;
   --bs-table-border-color: #e2bdca;
@@ -2468,7 +2468,7 @@ progress {
   border-color: var(--bs-table-border-color);
 }
 
-.table-secondary {
+.tables-secondary {
   --bs-table-color: #000;
   --bs-table-bg: #e5e6eb;
   --bs-table-border-color: #cecfd4;
@@ -2482,7 +2482,7 @@ progress {
   border-color: var(--bs-table-border-color);
 }
 
-.table-success {
+.tables-success {
   --bs-table-color: #000;
   --bs-table-bg: #dbefdc;
   --bs-table-border-color: #c5d7c6;
@@ -2496,7 +2496,7 @@ progress {
   border-color: var(--bs-table-border-color);
 }
 
-.table-info {
+.tables-info {
   --bs-table-color: #000;
   --bs-table-bg: #d1e3fa;
   --bs-table-border-color: #bccce1;
@@ -2510,7 +2510,7 @@ progress {
   border-color: var(--bs-table-border-color);
 }
 
-.table-warning {
+.tables-warning {
   --bs-table-color: #000;
   --bs-table-bg: #fee8cc;
   --bs-table-border-color: #e5d1b8;
@@ -2524,7 +2524,7 @@ progress {
   border-color: var(--bs-table-border-color);
 }
 
-.table-danger {
+.tables-danger {
   --bs-table-color: #000;
   --bs-table-bg: #fdd9d7;
   --bs-table-border-color: #e4c3c2;
@@ -2538,7 +2538,7 @@ progress {
   border-color: var(--bs-table-border-color);
 }
 
-.table-light {
+.tables-light {
   --bs-table-color: #000;
   --bs-table-bg: #f0f2f5;
   --bs-table-border-color: #d8dadd;
@@ -2552,7 +2552,7 @@ progress {
   border-color: var(--bs-table-border-color);
 }
 
-.table-dark {
+.tables-dark {
   --bs-table-color: #fff;
   --bs-table-bg: #344767;
   --bs-table-border-color: #485976;
@@ -2566,41 +2566,41 @@ progress {
   border-color: var(--bs-table-border-color);
 }
 
-.table-responsive {
+.tables-responsive {
   overflow-x: auto;
   -webkit-overflow-scrolling: touch;
 }
 
 @media (max-width: 575.98px) {
-  .table-responsive-sm {
+  .tables-responsive-sm {
     overflow-x: auto;
     -webkit-overflow-scrolling: touch;
   }
 }
 
 @media (max-width: 767.98px) {
-  .table-responsive-md {
+  .tables-responsive-md {
     overflow-x: auto;
     -webkit-overflow-scrolling: touch;
   }
 }
 
 @media (max-width: 991.98px) {
-  .table-responsive-lg {
+  .tables-responsive-lg {
     overflow-x: auto;
     -webkit-overflow-scrolling: touch;
   }
 }
 
 @media (max-width: 1199.98px) {
-  .table-responsive-xl {
+  .tables-responsive-xl {
     overflow-x: auto;
     -webkit-overflow-scrolling: touch;
   }
 }
 
 @media (max-width: 1399.98px) {
-  .table-responsive-xxl {
+  .tables-responsive-xxl {
     overflow-x: auto;
     -webkit-overflow-scrolling: touch;
   }
@@ -20294,7 +20294,7 @@ progress {
 .dark-version .h6,
 .dark-version .h6,
 .dark-version a:not(.dropdown-item):not(.choices__item):not(.leaflet-control-zoom-in):not(.leaflet-control-zoom-out):not(.btns):not(.nav-link):not(.fixed-plugin-button),
-.dark-version .table thead tr th,
+.dark-version .tables thead tr th,
 .dark-version .kanban-title-board {
   color: #fff !important;
 }
@@ -20306,7 +20306,7 @@ progress {
   opacity: .8;
 }
 
-.dark-version .table> :not(caption)>*>* {
+.dark-version .tables> :not(caption)>*>* {
   border-color: rgba(255, 255, 255, 0.4) !important;
   color: rgba(255, 255, 255, 0.6) !important;
 }
@@ -23959,43 +23959,43 @@ body:not(.dark-version) .sidenav.bg-transparent .summary .collapse .nav-item .na
   color: #329874;
 }
 
-.table thead th {
+.tables thead th {
   padding: 0.75rem 1.5rem;
   text-transform: capitalize;
   letter-spacing: 0px;
   border-bottom: 1px solid #f0f2f5;
 }
 
-.table th {
+.tables th {
   font-weight: 600;
 }
 
-.table td .progress {
+.tables td .progress {
   height: 3px;
   width: 120px;
   margin: 0;
 }
 
-.table td .progress .progress-bar {
+.tables td .progress .progress-bar {
   height: 3px;
 }
 
-.table td,
-.table th {
+.tables td,
+.tables th {
   white-space: nowrap;
 }
 
-.table.align-items-center td,
-.table.align-items-center th {
+.tables.align-items-center td,
+.tables.align-items-center th {
   vertical-align: middle;
 }
 
 
-.table> :not(:last-child)> :last-child>* {
+.tables> :not(:last-child)> :last-child>* {
   border-bottom-color: #f0f2f5;
 }
 
-.table> :not(:first-child) {
+.tables> :not(:first-child) {
   border-top: 1px solid currentColor;
 }
 
